@@ -15,13 +15,6 @@ A full-stack machine learning project to predict car prices using advanced regre
 - [Dataset & Preprocessing](#-dataset--preprocessing)
 - [Modeling](#-modeling)
 - [Web & Interactive UI](#-web--interactive-ui)
-- [Visualization Dashboard](#-visualization-dashboard)
-- [Usage](#-usage)
-- [Deployment](#-deployment)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
 
 ---
 
