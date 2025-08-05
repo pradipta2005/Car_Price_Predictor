@@ -1,8 +1,6 @@
 # 🚗 Car Price Predictor
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Status](https://img.shields.io/badge/status-Active-brightgreen)
+
 
 A full-stack machine learning project to predict car prices using advanced regression techniques. Includes model training, deployment with Flask and/or Streamlit, and optional data visualization dashboards.
 
