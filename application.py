@@ -9,7 +9,13 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model and data
-model = pickle.load(open('LinearRegressionModel.pkl', 'rb'))
+try:
+    model = pickle.load(open('LinearRegressionModel.pkl', 'rb'))
+    print("Model loaded successfully. Type:", type(model))
+except Exception as e:
+    print("Error loading model:", e)
+    model = None
+
 car = pd.read_csv('Cleaned_Car_data.csv')
 
 @app.route('/', methods=['GET', 'POST'])
